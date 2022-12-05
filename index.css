@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background-color: #e5cfba;
+  font-family: jost-regular, sans-serif;;
+}
+.grid-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+img {
+  max-height: 350px;
+  min-height: 350px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.grid-text {
+  padding:3rem;
+}
+.grid-text h2{
+  margin: 0;
+}
+.grid-img {
+  height: 350px;
+}
+
+
+@media (max-width: 650px) {
+  .grid-content {
+    display: block;
+    font-size: 80%;
+  }
+  .grid-text {
+    position: relative;
+    padding: 1rem;
+    background: rgba(white, 0.8);
+  }
+  .grid-content{
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+  }
+  #inversed-responsive-text {
+    -webkit-box-ordinal-group: 3;
+    -moz-box-ordinal-group: 3;
+    box-ordinal-group: 3;
+  }
+  #inversed-responsive-img {
+    -webkit-box-ordinal-group: 4;
+    -moz-box-ordinal-group: 4;
+    box-ordinal-group: 4;
+  }
+}
+
+
+@font-face {
+  font-family: jost-regular;
+  src: url('./resources/fonts/Jost-Regular.ttf');
+}
