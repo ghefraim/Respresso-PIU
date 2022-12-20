@@ -1,0 +1,60 @@
+.text-prompt {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+form {
+    text-align: center;
+}
+form input, form textarea {
+    width: 250px;
+    min-height: 30px;
+    margin: 5px;
+    border-radius: 8px;
+    border-color: #ffffff00;
+    resize: none;
+    font-family: jost-regular;
+}
+form #msg {
+    min-height: 120px;
+}
+
+::placeholder {
+    font-family: jost-regular, sans-serif;
+}
+
+form #submit{
+    font-family: jost-bold, serif;
+    font-size: 13pt;
+    background-color: #4E5C90;
+    color: #fff;
+    border-color: #ffffff00;
+    border-radius: 8px;
+    width: 130px;
+    height: 40px;
+}
+
+@media (max-width:450px) {
+    form input, form textarea {
+        width: 92%
+    }
+
+    .text-prompt h1{
+        margin-top: 50px;
+        font-size: 1.5em;
+    }
+    .text-prompt p{
+        font-size: 0.8em;
+        margin: 10px 15px;
+    }
+}
+
+@font-face {
+    font-family: jost-regular;
+    src: url('./resources/fonts/Jost-Regular.ttf');
+}
+
+@font-face {
+    font-family: jost-bold;
+    src: url('./resources/fonts/Jost-Bold.ttf');
+}

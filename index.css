@@ -1,14 +1,11 @@
-body {
-  margin: 0;
-  background-color: #e5cfba;
-  font-family: jost-regular, sans-serif;;
-}
+
 .grid-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   max-width: 100%;
   margin: 0 auto;
+  margin-top: 50px;
 }
 img {
   max-height: 350px;
@@ -28,9 +25,9 @@ img {
 }
 
 
-@media (max-width: 650px) {
+@media (max-width: 730px) {
   .grid-content {
-    display: block;
+    display: inline;
     font-size: 80%;
   }
   .grid-text {
@@ -56,6 +53,16 @@ img {
     -webkit-box-ordinal-group: 4;
     -moz-box-ordinal-group: 4;
     box-ordinal-group: 4;
+  }
+  #inversed-responsive-img2 {
+    -webkit-box-ordinal-group: 6;
+    -moz-box-ordinal-group: 6;
+    box-ordinal-group: 6;
+  }
+  #inversed-responsive-text2 {
+    -webkit-box-ordinal-group: 5;
+    -moz-box-ordinal-group: 5;
+    box-ordinal-group: 5;
   }
 }
 

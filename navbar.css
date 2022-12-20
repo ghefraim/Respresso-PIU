@@ -1,15 +1,16 @@
 body {
   margin: 0;
-  background-color: #e5cfba;
-  font-family: jost-regular, sans-serif;;
+  background-color: #D3D6E1;
+  font-family: jost-regular, sans-serif;
 }
 
 .nav {
   height: 50px;
   width: 100%;
-  background-color: #C3C8CA;
+  background-color: #D2B28F;
   position: relative;
   z-index: 100;
+  font-family: jost-medium, sans-serif;
 }
 
 .nav > .nav-header {
@@ -37,7 +38,7 @@ body {
   display: inline;
   text-decoration: none;
   margin: 0 1rem;
-  color: #000000;
+  color: #522A05;
 }
 
 .nav > .nav-links > a:hover {
@@ -61,7 +62,7 @@ body {
     display: block;
     width: 25px;
     height: 10px;
-    border-top: 2px solid #eee;
+    border-top: 2px solid #522A05;
   }
   .nav > .nav-links {
     position: absolute;
@@ -112,4 +113,9 @@ body {
 @font-face {
   font-family: jost-regular;
   src: url('./resources/fonts/Jost-Regular.ttf');
+}
+
+@font-face {
+  font-family: jost-medium;
+  src: url('./resources/fonts/Jost-Medium.ttf');
 }
