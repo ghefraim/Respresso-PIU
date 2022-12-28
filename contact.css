@@ -57,11 +57,19 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 700px) {
-  h2 {
-    font-size: 18pt;
-  }
-  p {
-    font-size: 13pt;
+@media (max-width: 1160px) {
+    .grid-content {
+        display: block;
+        align-items: center;
+        max-width: 100%;
+        margin: 5rem 0;
+    }
+    .card {
+        margin: 2rem auto;
+    }
+}
+@media (max-width: 600px) {
+  .card {
+    width: 95%;
   }
 }

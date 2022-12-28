@@ -35,7 +35,7 @@ video {
     color: #fff;
     border-color: #ffffff00;
     border-radius: 8px;
-    width: 130px;
+    min-width: 130px;
     height: 40px;
     font-family: jost-regular;
     margin-top: 50px;
