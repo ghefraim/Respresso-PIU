@@ -35,16 +35,22 @@ form #submit{
 }
 
 @media (max-width:450px) {
+    h1 {
+        font-size: 18pt;
+    }
+    p {
+        font-size: 13pt;
+    }
     form input, form textarea {
-        width: 92%
+        width: 92%;
     }
 
     .text-prompt h1{
         margin-top: 50px;
-        font-size: 1.5em;
+        font-size: 18pt;
     }
     .text-prompt p{
-        font-size: 0.8em;
+        font-size: 12pt;
         margin: 10px 15px;
     }
 }

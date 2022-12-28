@@ -7,12 +7,13 @@
     <title>Produse | Respresso</title>    
     <link rel="stylesheet" href="./navbar.css">    
     <link rel="stylesheet" href="./produse.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="nav" id="navbar">
         <div class="nav-header">
             <div class="nav-title" id="respresso-logo">
-                <a href="./index.html" target="_blank">
+                <a href="./index.html" target="_self">
                     <img src="resources/respressologo.PNG" alt="respresso-logo">
                 </a>
             </div>
@@ -27,45 +28,53 @@
         </div>
         
         <div class="nav-links">
-            <a href="./cafenea.html" target="_blank">Cafenea</a>
-            <a href="./produse.html" target="_blank">Produse</a>
-            <a href="./contact.html" target="_blank">Contact</a>
+            <a href="./cafenea.html" target="_self">Cafenea</a>
+            <a href="./produse.html" target="_self">Produse</a>
+            <a href="./contact.html" target="_self">Contact</a>
+            <a href="./" target="_self" class="fa fa-home"></a>
         </div>
     </div>
     <div class="grid-content">
-        <div class="card">
+        <div class="card transition-in">
             <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Roasted_Coffee_Beans_Texture.jpg" alt="">
             <div class="container">
                 <b>Cafea - boabe</b>
                 <p>Poți avea parte de gustul cafelei Respresso chiar in casa ta! Cumpără acum boabele de cafea folosite in prepararea cafelelor noastre.</p>
                 <div class="button">
-                    <a href="#">DESCOPERĂ</a>
+                    <form action="./cafeaboabe.html">
+                        <input type="submit" id="submit" name="submit" value="DESCOPERĂ"><br>
+                    </form>
                 </div>
             </div>
         </div>
         
-        <div class="card">
+        <div class="card transition-in">
             <img src="https://cdn.thegentlemansjournal.com/wp-content/uploads/2018/02/best-coffee-cocktails-header.jpg" alt="">
             <div class="container">
                 <b>Cafea - băuturi</b>
                 <p>Descoperă gustul băuturilor noastre de cafea, potrivite pentru orice sezon, care pot fi luate din localul nostru sau comandate online! </p>
-                <div class="button" style="background-color: #D1A26F;">
-                    <a href="#">DESCOPERĂ</a>
+                <div class="button">
+                    <form action="./cafeabauturi.html">
+                        <input type="submit" id="submit" name="submit" value="DESCOPERĂ"><br>
+                    </form>
                 </div>
             </div>
         </div>
 
-        <div class="card">
+        <div class="card transition-in">
             <img src="https://handletheheat.com/wp-content/uploads/2013/10/Soft-Chocolate-Chip-Cookies-SQUARE-768x768.jpg" alt="">
             <div class="container">
                 <b>Gustări</b>
                 <p>Îți place să bei cafeaua împreună cu o gustare? Alege ceea ce crezi tu că ți se potrivește: de la croissanturi sărate până la biscuiți cu ciocolată.</p>
-                <div class="button" style="background-color: #4E5C90;">
-                    <a href="#">DESCOPERĂ</a>
+                <div class="button">
+                    <form action="./gustari.html">
+                        <input type="submit" id="submit" name="submit" value="DESCOPERĂ"><br>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
 </body>
 <script src="./navbar.js"></script>
+<script src="./transitions.js"></script>
 </html>

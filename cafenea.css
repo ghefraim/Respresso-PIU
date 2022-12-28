@@ -39,7 +39,14 @@ video {
     height: 40px;
     font-family: jost-regular;
     margin-top: 50px;
+    cursor: pointer;
+    transition: all .2s;
 }
+#submit:hover {
+  background-color: #1d2541;
+  box-shadow: 0 0 10px black;
+}
+
 img {
     height: 150px;
     width: 150px;
@@ -48,6 +55,15 @@ img {
 }
 
 @media (max-width: 730px) {
+    h2 {
+        font-size: 18pt;
+    }
+    p {
+        font-size: 13pt;
+    }
+    h3 {
+        font-size: 16pt;
+    }
     .grid-content {
         grid-auto-flow: unset;
         grid-template-columns: 1fr 1fr;

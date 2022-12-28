@@ -23,9 +23,17 @@ img {
 .grid-img {
   height: 350px;
 }
-
+a{
+  color: black;
+}
 
 @media (max-width: 730px) {
+  h2 {
+    font-size: 18pt;
+  }
+  p {
+    font-size: 13pt;
+  }
   .grid-content {
     display: inline;
     font-size: 80%;

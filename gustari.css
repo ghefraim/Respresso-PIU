@@ -4,7 +4,7 @@
   width: 25rem;
   background-color: azure;
   margin: 2rem auto;
-  height: 440px;
+  height: 390px;
   border-radius: 40px;
 }
 
@@ -43,7 +43,7 @@
   margin: 5rem 10rem;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1130px) {
     .grid-content {
         display: block;
         align-items: center;
@@ -53,5 +53,5 @@
     .card {
         margin: 2rem auto;
     }
-
+    
 }
