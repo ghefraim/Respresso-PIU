@@ -57,10 +57,10 @@ form #submit{
 
 @font-face {
     font-family: jost-regular;
-    src: url('./resources/fonts/Jost-Regular.ttf');
+    src: url('../resources/fonts/Jost-Regular.ttf');
 }
 
 @font-face {
     font-family: jost-bold;
-    src: url('./resources/fonts/Jost-Bold.ttf');
+    src: url('../resources/fonts/Jost-Bold.ttf');
 }
