@@ -5,7 +5,7 @@ h1{
 .map{
     display: flex;
     justify-content: center;
-    margin: 10px auto;
+    margin: 30px auto;
 }
 
 .card {
@@ -39,7 +39,7 @@ h1{
   grid-template-columns: 1.5fr 1.5fr;
   align-items: center;
   max-width: 100%;
-  margin: 5rem 10rem;
+  margin: 0 10rem;
 }
 #button {
     color: #4f6ddb;
