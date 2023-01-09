@@ -1,10 +1,13 @@
 .text-prompt {
     text-align: center;
+    margin-top: 100px;
     margin-bottom: 60px;
 }
 
 form {
     text-align: center;
+    margin: 0 10rem;
+    margin-bottom: calc(50vh - 163px);
 }
 form input, form textarea {
     width: 250px;

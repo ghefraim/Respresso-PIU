@@ -159,3 +159,16 @@ body {
 .visible {
   opacity: 1;
 }
+
+/* FOOTER */
+footer {
+  text-align: center;
+  font-size: 10pt;
+  background: linear-gradient(to bottom, #D3D6E1, #D2B28F);
+  padding: 1rem auto;
+  padding-top: 10px;
+  
+  /* position: fixed;
+  bottom: 0;
+  width: 100%; */
+}
